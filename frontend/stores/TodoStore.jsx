@@ -37,7 +37,7 @@ const TodoStore = create((set) => ({
             e.preventDefault();
             const { createForm, todo } = TodoStore.getState();
 
-            const res= await axios.post("http://localhost:3000/posts",createForm);
+            const res= await axios.post("http://localhost:3000/createposts",createForm);
             console.log(res)
 
             set({

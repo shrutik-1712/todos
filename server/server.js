@@ -31,7 +31,7 @@ app.get('/posts/:id',todocontrols.fetchTodo);
 
 
 //create
-app.post('/posts',todocontrols.CreateTodo);
+app.post('/createposts',todocontrols.CreateTodo);
 
 //update
 

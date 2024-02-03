@@ -6,7 +6,7 @@ export default function todos() {
     return(
         <>
         <div>
-        <div className="grid gap-6 mb-6 md:grid-cols-2">
+        <div className="grid gap-6 mb-6 ml-6 md:grid-cols-2">
         <h2 className="block mt-3 text-sm font-medium text-gray-900">TODOS:</h2>
         </div>
         <div className="decoration-solid">

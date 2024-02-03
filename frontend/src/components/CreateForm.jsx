@@ -5,7 +5,7 @@ export default function CreateForm() {
     if (stores.updateForm._id) return <></>;
   return (
     <>
-    <div className="grid justify-items-start">
+    <div className="grid justify-items-start ml-5">
       <div>
       <h2 className="block mt-4 mb-4 text-lg font-medium text-gray-900 place-content-center">create todo</h2>
       </div>
