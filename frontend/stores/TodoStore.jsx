@@ -16,7 +16,10 @@ const TodoStore = create((set) => ({
 
 
     fetchTodos:async()=>{
-        const res= await axios.get("http://localhost:3000/posts")
+      let requestObject = {
+        userId: localStorage.getItem("user")
+      }
+        const res= await axios.post("http://localhost:3000/posts", requestObject)
 
         set({todo:res.data.todo});
       },
@@ -36,7 +39,7 @@ const TodoStore = create((set) => ({
         createTodo:async(e)=>{
             e.preventDefault();
             const { createForm, todo } = TodoStore.getState();
-
+            createForm.userId = localStorage.getItem("user");
             const res= await axios.post("http://localhost:3000/createposts",createForm);
             console.log(res)
 

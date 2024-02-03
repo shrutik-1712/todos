@@ -58,7 +58,7 @@ UpdateSignupForm:(e)=>{
                 password:"",
             } 
         })
-        console.log(res);
+        localStorage.setItem("user", String(res.data._id));
     },
 
     checkAuth:async()=>{
@@ -75,6 +75,7 @@ UpdateSignupForm:(e)=>{
 
     logout:async(e)=>{
         await axios.get('/logout',{withCredentials:true});
+        localStorage.removeItem("user");
         set({loggedIn:false});
     }
 }))

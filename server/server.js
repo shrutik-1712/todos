@@ -23,7 +23,7 @@ app.get('/checkauth', requireAuth,usercontrol.checkAuth);
 
 
 //read all
-app.get('/posts',todocontrols.fetchTodos);
+app.post('/posts',todocontrols.fetchTodos);
 
 //read one
 
