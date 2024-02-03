@@ -34,8 +34,8 @@ cd server
 
 
 #images
-![alt text](https://ibb.co/K7YLVcj)
-![alt text](https://ibb.co/dMbqBNX)
-![alt text](https://ibb.co/f8Zx1Ms)
+![alt text](https://i.postimg.cc/FKhsyx83/Screenshot-2024-02-03-104055.png)
+![alt text](https://i.postimg.cc/d11sXVq0/Screenshot-2024-02-03-104326.png)
+![alt text](https://i.postimg.cc/ZqjYVdzg/Screenshot-2024-02-03-104109.png)
 
 
